@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HealthSync Privacy Policy</title>
+  <meta name="description" content="How the HealthSync iPhone app handles Apple Health and Google Drive data.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p><a href="./">HealthSync</a></p>
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated October 13, 2026</p>
+
+    <h2>Who uses HealthSync</h2>
+    <p>HealthSync is a personal app used only by its developer on their own iPhone. It is not distributed to anyone else.</p>
+
+    <h2>Data the app reads</h2>
+    <p>With permission granted in the Health app, HealthSync reads Apple Health data such as activity, body measurements, heart data, sleep, mindfulness, nutrition and workouts, including workout routes. It never writes to Apple Health.</p>
+
+    <h2>Where the data goes</h2>
+    <p>The app turns each day's data into a JSON file and uploads it over HTTPS to a folder in the signed-in user's own Google Drive. That is the only place data is sent. There is no HealthSync server, and no analytics, advertising or tracking.</p>
+    <p>Until a file is uploaded, it waits in the app's private storage on the phone and is deleted after upload.</p>
+
+    <h2>Google user data</h2>
+    <p>HealthSync asks Google only for basic profile information (to show which account is signed in) and the <code>drive.file</code> permission. That permission lets the app create and update the files it makes itself; it cannot read, change or delete any other file in the Drive. HealthSync's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google data is not shared with anyone, sold, or used for advertising.</p>
+    <p>Sign-in tokens are stored in the iPhone's Keychain and are used only to talk to Google.</p>
+
+    <h2>Removing data</h2>
+    <p>Signing out in the app deletes its Google tokens from the phone. Access can also be removed at any time at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>. Exported files stay in the user's Drive until the user deletes them. Deleting the app removes everything it stored on the phone.</p>
+
+    <h2>Changes</h2>
+    <p>Any change to this policy will be posted on this page with a new date.</p>
+  </main>
+</body>
+</html>

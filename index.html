@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HealthSync</title>
+  <meta name="description" content="HealthSync is a personal iPhone app that copies the owner's Apple Health data to their own Google Drive.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>HealthSync</h1>
+    <p>HealthSync is a personal iPhone app. Once a day it copies its owner's Apple Health data, as one JSON file per day, into a folder in the owner's own Google Drive.</p>
+    <p>It is built and installed from Xcode for a single person's phone. It is not on the App Store and has no other users.</p>
+    <h2>What it uses</h2>
+    <ul>
+      <li><strong>Apple Health</strong>: read-only access to the data types the owner allows.</li>
+      <li><strong>Google Drive</strong>: the <code>drive.file</code> permission, which lets the app create and update only the files it makes itself. It cannot see anything else in the Drive.</li>
+    </ul>
+    <p>There is no HealthSync server. Data goes from the phone straight to the owner's Drive.</p>
+    <p><a href="privacy.html">Privacy policy</a></p>
+  </main>
+</body>
+</html>
